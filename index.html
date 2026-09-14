@@ -143,7 +143,7 @@
     .loop-node.hot{background:linear-gradient(145deg,rgba(217,56,120,.3),rgba(255,154,122,.12));border-color:rgba(255,154,122,.6)}
     .loop-arrow{color:var(--gold);font-size:30px;font-weight:900}
     .loop-return{margin:16px auto 0;padding:12px 18px;max-width:620px;border-radius:999px;background:rgba(19,8,15,.48);color:var(--coral);text-align:center;font-weight:900}
-    .money-spiral{position:relative;width:min(840px,100%);aspect-ratio:1.14;margin:18px auto 8px;direction:ltr}
+    .money-spiral{position:relative;width:min(840px,100%);aspect-ratio:1.14;margin:18px auto 28px;direction:ltr}
     .spiral-path{position:absolute;inset:3%;width:94%;height:94%;overflow:visible}
     .spiral-path path{fill:none;stroke:url(#spiralPulse);stroke-width:8;stroke-linecap:round;stroke-dasharray:12 14;filter:drop-shadow(0 0 10px rgba(217,56,120,.28))}
     .spiral-node{position:absolute;z-index:3;width:126px;min-height:70px;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 12px;border:1px solid rgba(247,235,221,.38);border-radius:22px;background:rgba(43,13,37,.94);color:var(--ivory);font-weight:900;line-height:1.08;text-align:center;cursor:pointer;box-shadow:0 12px 30px rgba(0,0,0,.25);direction:rtl}
@@ -270,13 +270,13 @@
       .million-card strong{font-size:clamp(40px,13vw,50px)}
       .model-lab{padding:28px 12px}
       .loop-node{min-height:88px}
-      .money-spiral{aspect-ratio:.84;margin-top:24px}
+      .money-spiral{aspect-ratio:.84;margin:24px auto 48px}
       .spiral-node{width:86px;min-height:58px;padding:7px 6px;border-radius:17px;font-size:13px;gap:4px}
       .spiral-node b{width:22px;height:22px;flex-basis:22px;font-size:12px}
       .spiral-node-1{left:38%;top:0}
       .spiral-node-2{right:0;top:18%}
       .spiral-node-3{right:0;bottom:24%}
-      .spiral-node-4{left:39%;bottom:0}
+      .spiral-node-4{left:39%;bottom:-18px}
       .spiral-node-5{left:0;bottom:23%}
       .spiral-node-6{left:0;top:22%}
       .spiral-node-7{left:38%;top:25%}
@@ -312,7 +312,7 @@
     }
     @media(max-width:359px){
       .model-lab{padding:26px 10px}
-      .money-spiral{height:720px;aspect-ratio:auto;margin-top:24px}
+      .money-spiral{height:720px;aspect-ratio:auto;margin:24px auto 28px}
       .spiral-path{inset:2% 5%;width:90%;height:96%}
       .spiral-node-1{left:calc(50% - 43px);top:0}
       .spiral-node-2{right:0;top:17%}
@@ -491,7 +491,7 @@
             <button class="spiral-node spiral-node-1" type="button" data-spiral="1" aria-pressed="true"><b>1</b><span>רוצה<br>יותר</span></button>
             <button class="spiral-node spiral-node-2" type="button" data-spiral="2" aria-pressed="false"><b>2</b><span>זורעת<br>עוד</span></button>
             <button class="spiral-node spiral-node-3" type="button" data-spiral="3" aria-pressed="false"><b>3</b><span>נותנת<br>יותר</span></button>
-            <button class="spiral-node spiral-node-4" type="button" data-spiral="4" aria-pressed="false"><b>4</b><span>נפרסת<br>לרוחב</span></button>
+            <button class="spiral-node spiral-node-4" type="button" data-spiral="4" aria-pressed="false"><b>4</b><span>מתפזרת<br>לכל עבר</span></button>
             <button class="spiral-node spiral-node-5" type="button" data-spiral="5" aria-pressed="false"><b>5</b><span>לא<br>מסתכלת</span></button>
             <button class="spiral-node spiral-node-6" type="button" data-spiral="6" aria-pressed="false"><b>6</b><span>הכסף<br>מתקרב</span></button>
             <button class="spiral-node spiral-node-7" type="button" data-spiral="7" aria-pressed="false"><b>7</b><span>הפחד<br>נוהג</span></button>
